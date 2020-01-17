@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/main_laohuangli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/yingli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yingli"/>
+            <TextView
+                android:id="@+id/calendar"
+                style="@style/laohuangli"
+                android:layout_toRightOf="@id/yingli"
+                android:text="@string/_2020_12_13" />
+
+            <TextView
+                android:id="@+id/suitable"
+                style="@style/laohuangli"
+                android:layout_below="@id/calendar"
+                android:text="@string/suitable"/>
+
+            <TextView
+                android:id="@+id/inappropriate"
+                style="@style/laohuangli"
+                android:layout_below="@id/suitable"
+                android:text="@string/inappropriate" />
+            <TextView
+                android:id="@+id/avoid"
+                style="@style/laohuangli"
+                android:layout_below="@id/inappropriate"
+                android:text="@string/avoid"/>
+
+            <TextView
+                android:id="@+id/avoid_inappropriate"
+                android:layout_below="@id/avoid"
+                style="@style/laohuangli"
+                android:text="@string/inappropriate" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

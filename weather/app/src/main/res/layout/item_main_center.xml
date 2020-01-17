@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/item_tv_date"
+        style="@style/con"
+        android:text="周六" />
+
+    <TextView
+        android:id="@+id/item_tv_con"
+        style="@style/con"
+        android:layout_toRightOf="@id/item_tv_date"
+        android:text="晴" />
+
+    <TextView
+        android:id="@+id/item_tv_temp"
+        style="@style/con"
+        android:layout_alignParentRight="true"
+        android:text="25·26℃" />
+
+    <ImageView
+        android:id="@+id/item_center_iv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/item_tv_temp"
+        android:src="@mipmap/icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/item_tv_date"
+        android:layout_marginTop="5dp"
+        android:background="#E0E0E0" />
+
+</RelativeLayout>

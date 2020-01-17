@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">weather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">fragment</string>
+    <string name="_25_30">25~30℃</string>
+    <string name="String">确定</string>
+    <string name="affirm">确定</string>
+    <string name="hint">请输入国内城市名字，例如：“长沙”</string>
+    <string name="delect">删除城市</string>
+    <string name="add">添加功能</string>
+    <string name="dress">穿衣指数</string>
+    <string name="car">洗车指数</string>
+    <string name="cole">感冒指数</string>
+    <string name="sprot">运动指数</string>
+    <string name="rays">紫外线指数</string>
+    <string name="city">长沙</string>
+    <string name="condition">阴</string>
+    <string name="citys">长沙</string>
+    <string name="weather">晴</string>
+    <string name="date">2020-01-07</string>
+    <string name="temperature">20~30℃</string>
+    <string name="delectCity">请选择需要删除的城市</string>
+    <string name="todo">TODO</string>
+    <string name="wind">无风</string>
+    <string name="dates">2019-12-25</string>
+    <string name="curren">3℃</string>
+    <string name="history">历史上的今天</string>
+    <string name="HuangLi">老黄历</string>
+    <string name="upload">更多精彩正在加载中</string>
+    <string name="_2020_12_13">2020.12.13</string>
+    <string name="water">大溪水</string>
+    <string name="halt">冲鸡煞西</string>
+    <string name="lucky">半吉</string>
+    <string name="suitable">宜:</string>
+    <string name="inappropriate">诸事不宜</string>
+    <string name="avoid">忌:</string>
+    <string name="yingli">阴历：</string>
+    <string name="safeness">平安无事</string>
+</resources>

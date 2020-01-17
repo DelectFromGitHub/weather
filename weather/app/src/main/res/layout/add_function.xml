@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2">
+
+    <LinearLayout
+        android:id="@+id/frag_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/history"
+                style="@style/function"
+                android:text="@string/history"/>
+            <Button
+                android:id="@+id/HuangLi"
+                style="@style/function"
+                android:text="@string/HuangLi"
+
+                android:layout_toEndOf="@id/history"/>
+            <Button
+                android:id="@+id/upload"
+                style="@style/function"
+                android:text="@string/upload"
+                android:layout_toEndOf="@id/HuangLi"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

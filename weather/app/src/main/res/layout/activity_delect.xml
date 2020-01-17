@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/delect_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="290dp">
+            <Button
+                android:id="@+id/delect_city"
+                style="@style/add"
+                android:text="@string/delect"/><!--提取字符串“删除城市”-->
+            <Button
+                android:id="@+id/add_functionality"
+                style="@style/add"
+                android:text="@string/add" /><!--添加功能-->
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>
